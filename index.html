@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap 4 Introduction</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <style>
+        body {
+            margin: 30px;
+        }
+
+        .my-container {
+            border: 1px solid green;
+        }
+
+        .my-row {
+            border: 3px solid red;
+            height: 300px;
+        }
+
+        .my-col {
+            border: 3px dotted blue;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>My First Bootstrap 4 Page</h1>
+    <div class="container my-container">
+        <div class="row my-row">
+            <div class="col-md-4 col-sm-6 my-col">
+                Row 1 Col 1
+            </div>
+            <div class="col-md-8 col-sm-6 my-col">
+                Row 1 Col 2
+            </div>
+        </div>
+        <div class="row justify-content-between align-items-stretch my-row">
+            <div class="col-4 my-col order-md-12">
+                Row 2 Col 1
+            </div>
+            <div class="col-4 offset-md-2 my-col align-self-start order-md-2">
+                Row 2 Col 2
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
