@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap4-introduction",
+  "version": "1.0.0",
+  "description": "This repository holds the source code for my [YouTube series](https://www.academind.com/learn/css/bootstrap-4-tutorial/) on [Bootstrap 4](http://getbootstrap.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/academind/bootstrap4-introduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/academind/bootstrap4-introduction/issues"
+  },
+  "homepage": "https://github.com/academind/bootstrap4-introduction#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
